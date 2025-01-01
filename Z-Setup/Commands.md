@@ -2,18 +2,22 @@
 
 python manage.py runserver
 #   FUNCTION: runs the server 
--   you can exit by pressing CTRL+C 
+#   you can exit by pressing CTRL+C 
 
 
 python manage.py show_urls
 #   FUNCTION: see all the urls within the project
--   shows the urls. (needs extension to run though)
+#   shows the urls. (needs extension to run though)
+
 
 .\myenv\Scripts\activate
 #   FUNCTION: enter django enviroment 
--   Use when need to run django commands
+#   Use when need to run django commands
 
 
+python manage.py migrate
+#   FUNCTION: enter django enviroment
+#   Use if need to make migrations
 
 
 
