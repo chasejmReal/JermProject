@@ -20,22 +20,22 @@ python manage.py migrate
 #   Use if need to make migrations
 
 
-
-# HOW TO: start a django project
 django-admin startproject NAME_OF_PROJECT
-    *this must be done within the django enviroment and with it installed. 
+#   FUNCTION: starts a Django Project
+#   really only needs to be donoe 1x per project (duh)
 
-# HOW TO: create an app within django
-python manage.py startapp NAME_OF_APP
-    *creates an app for django
 
-# HOW TO: apply migrations 
-python manage.py migrate
-    *apply any migrations 
+django-admin startproject NAME_OF_PROJECT
+#   FUNCTION: creates app within your django project 
 
-# HOW TO: create a super user 
+
+django-admin startproject NAME_OF_PROJECT
+#   FUNCTION: creates app within your django project 
+
+
 python manage.py createsuperuser
-    *creates a superuser
-    * my account
-    -Username = 
-    -Password = 
+#   FUNCTION: creates a super user 
+#   my account 
+#   -Username = 
+#   -Password = 
+
