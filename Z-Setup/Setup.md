@@ -16,7 +16,7 @@ only needed when you need an enviroment created
 pip install django
 
 5. type: 
-cd ProjectSigma
+cd src
 
 6. type: 
 python manage.py migrate
