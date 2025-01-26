@@ -25,7 +25,7 @@ django-admin startproject NAME_OF_PROJECT
 #   really only needs to be donoe 1x per project (duh)
 
 
-django-admin startproject NAME_OF_PROJECT
+python manage.py startapp NAME_OF_APP
 #   FUNCTION: creates app within your django project 
 
 
