@@ -15,9 +15,6 @@ NOTES
 from pathlib import Path
 import os
 
-# Added in manually
-AUTH_USER_MODEL = 'Test.CustomUser'
-
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
