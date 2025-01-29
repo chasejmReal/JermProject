@@ -16,7 +16,7 @@ python manage.py show_urls
 
 
 python manage.py migrate
-#   FUNCTION: enter django enviroment
+#   FUNCTION: apply pending changes (if any) to the database
 #   Use if need to make migrations
 
 
@@ -36,6 +36,6 @@ django-admin startproject NAME_OF_PROJECT
 python manage.py createsuperuser
 #   FUNCTION: creates a super user 
 #   my account 
-#   -Username = 
-#   -Password = 
+#   -Username = Yellow
+#   -Password = Yellow2025!
 

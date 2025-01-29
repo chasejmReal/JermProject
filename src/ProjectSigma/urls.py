@@ -2,6 +2,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
+#Peronal views
 from Personal.views import home_screen_view
 from Personal.views import go_to_orgre_screen
 
